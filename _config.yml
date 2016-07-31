@@ -1,9 +1,9 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "Peter Brunton FED"
+description: "Pete's blog,using Jekyll and github pages."
+keywords: "Peter Brunton,Shopify,blog,front-end development,github,gh-pages"
 
 baseurl: "/"
 url: "http://www.jack003.com"
@@ -11,13 +11,13 @@ url: "http://www.jack003.com"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  name: 'Peter Brunton'
+  first_name: 'Peter'
+  last_name: 'Brunton'
+  email: 'pete@peterbrunton.ie'
+  facebook_username: 'Peter-Brunton-Web-Development'
+  github_username: 'peterbrunton'
+  head_img: 'static/img/landing/peterbrunton-webdevelopment.jpg'
 
 # social link
 jingyu:
