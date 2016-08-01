@@ -6653,15 +6653,15 @@ body.landing-page {
 }
 .landing-page .navbar-default .navbar-brand:hover,
 .landing-page .navbar-default .navbar-brand:focus {
-  background: #179d82;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 .landing-page .navbar-default .navbar-brand {
-  color: #fff;
+  color: #000;
   height: auto;
   display: block;
   font-size: 14px;
-  background: #1ab394;
+  background: #fff;
   padding: 15px 20px 15px 20px;
   border-radius: 0 0 5px 5px;
   font-weight: 700;
