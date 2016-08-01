@@ -6,8 +6,8 @@ description: "Pete's blog,using Jekyll and github pages."
 keywords: "Peter Brunton,Shopify,blog,front-end development,github,gh-pages"
 
 baseurl: "/"
-url: "http://www.jack003.com"
-# url: "http://127.0.0.1:4000"
+#url: "https://peterbrunton.github.io/"
+url: "http://127.0.0.1:4000"
 
 # author
 author:
@@ -15,9 +15,9 @@ author:
   first_name: 'Peter'
   last_name: 'Brunton'
   email: 'pete@peterbrunton.ie'
-  facebook_username: 'Peter-Brunton-Web-Development'
+  facebook_username: 'pbwebdevelopment'
   github_username: 'peterbrunton'
-  head_img: 'static/img/landing/peterbrunton-webdevelopment.jpg'
+  head_img: 'static/img/landing/pete.jpg'
 
 # social link
 jingyu:
