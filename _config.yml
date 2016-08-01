@@ -1,7 +1,8 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Peter Brunton FED"
+title: "Peter Brunton"
+subline: "Front-end web development"
 description: "Pete's blog,using Jekyll and github pages."
 keywords: "Peter Brunton,Shopify,blog,front-end development,github,gh-pages"
 
@@ -21,11 +22,11 @@ author:
 
 # social link
 jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  first_name: 'Peter'
+  last_name: 'Brunton'
+  description: 'Front-end developer.'
+  link: 'https://github.com/peterbrunton'
+  email: 'pete@peterbrunton.ie'
 
 # landing page
 landing:

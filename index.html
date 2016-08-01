@@ -14,8 +14,7 @@ permalink: /
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#page-top" id="i18_title">
-                      <span data-i18n="website.title">{{ site.title }}</span>
-                      <img src="http://peterbrunton.ie/images/bomb-logo.jpg" alt="bomb logo" />
+                      <span data-i18n="website.title"><img src="http://peterbrunton.ie/images/bomb-logo.jpg" alt="bomb logo" />{{ site.title }} </span>
                     </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -140,7 +139,7 @@ permalink: /
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
                 <p>
                   <span data-i18n="about_me.des">
-                    I am a front-end developer from Ireland, living in Portugal. I specialise in front-end web development, in particular HTML/CSS, Javascript, jQuery, JSON to name but a few. I am employed by the eCommerce platform Shopify where I work as a plus theme specialist. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.
+                    <!-- Content grabbed from translation file {{ about_me.des }}  -->
                   </span>
                 </p>
             </div>
@@ -160,15 +159,15 @@ permalink: /
 
             <div class="col-lg-12">
                 <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-                    <!-- shopify Plus -->
+                    <!-- Shopify Plus -->
                     <div class="vertical-timeline-block">
                         <div class="vertical-timeline-icon navy-bg">
                             <i class="fa fa-plus-square"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.shopify-plus">Shopify, `Plus theme specialist`</span></h2>
-                            <p><span data-i18n="career.shopify-plus_des">I currently work for Shopify as a theme specialist for Plus+. </span></p>
-                            <span class="vertical-date"><span data-i18n="career.shopify-plus_date"> Feb. 2016 </span><br/> <small><span data-i18n="career.nextcode_job">Plus theme specialist</span></small> </span>
+                            <h2><span data-i18n="career.shopify-plus"><!-- Content grabbed from translation file {{ career.shopify-plus }} --></span></h2>
+                            <p><span data-i18n="career.shopify-plus_des"><!-- Content grabbed from translation file {{ career.shopify-plus_des }} --></span></p>
+                            <span class="vertical-date"><span data-i18n="career.shopify-plus_date"> Feb. 2016 </span><br/> <small><span data-i18n="career.shopify-plus_job"><!-- Content grabbed from translation file {{ career.shopify-plus_job }} --></span></small> </span>
                         </div>
                     </div>
                     <!-- Shopify -->
@@ -188,9 +187,20 @@ permalink: /
                             <i class="fa fa-cloud"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.ha">H+A Marketing & PR</span></h2>
-                            <p><span data-i18n="career.ha_des">At H&A I worked as a web developer, the majority of the work was front end development creating themes for CMS made simple, Workpress, Opencart, as well as developing Facebook Apps and coporate email stationary and newsletters. </span></p>
-                            <span class="vertical-date"><span data-i18n="career.ha_date"> Sep. 2013 </span><br/> <small><span data-i18n="career.ucloud_job">Web developer</span></small> </span>
+                            <h2><span data-i18n="career.ha">H+A Marketing &amp; PR</span></h2>
+                            <p><span data-i18n="career.ha_des">At H&amp;A I worked as a web developer, the majority of the work was front end development creating themes for CMS made simple, Workpress, Opencart, as well as developing Facebook Apps and coporate email stationary and newsletters. </span></p>
+                            <span class="vertical-date"><span data-i18n="career.ha_date"> April. 2012 </span><br/> <small><span data-i18n="career.ucloud_job">Web developer</span></small> </span>
+                        </div>
+                    </div>
+                    <!-- The chalet experience -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-cloud"></i>
+                        </div>
+                        <div class="vertical-timeline-content">
+                            <h2><span data-i18n="career.chalet-experience">The chalet experience</span></h2>
+                            <p><span data-i18n="career.chalet-experience_des">At H&amp;A I worked as a web developer, the majority of the work was front end development creating themes for CMS made simple, Workpress, Opencart, as well as developing Facebook Apps and coporate email stationary and newsletters. </span></p>
+                            <span class="vertical-date"><span data-i18n="career.chalet-experience_date"> Sep. 2011 </span><br/> <small><span data-i18n="career.chalet-experience_date_job">Web developer</span></small> </span>
                         </div>
                     </div>
                     <!-- student -->
@@ -201,13 +211,12 @@ permalink: /
                         <div class="vertical-timeline-content">
                             <h2><span data-i18n="career.college">Graduation</span></h2>
                             <p><span data-i18n="career.college_des">At July 2013,I graduated from college and started my IT technology tour.</span></p>
-                            <span class="vertical-date"><span data-i18n="career.college_date"> Jul. 2013 </span><br/> <small><span data-i18n="career.college_job">Student</span></small> </span>
+                            <span class="vertical-date"><span data-i18n="career.college_date"> Jul. 2013 </span><br/> <small>
+                            <span data-i18n="career.college_job">Student</span></small> </span>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -224,7 +233,7 @@ permalink: /
         <div class="row features-block">
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Python</p>
+              <p>HTML/CSS</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -236,7 +245,7 @@ permalink: /
           </div>
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>HTML</p>
+              <p>Javascript</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -260,7 +269,7 @@ permalink: /
           </div>
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>AngularJS</p>
+              <p>Git</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
