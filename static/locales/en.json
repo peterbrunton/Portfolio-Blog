@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Pete's blog"
+    "title": "Peter Brunton, Front-end developer"
   },
   "nav":{
     "home": "Home",
@@ -13,7 +13,7 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a front-end developer from Ireland, living in Portugal. I specialise in front-end web development, in particular HTML/CSS, Javascript and jQuery. I work for the eCommerce platform Shopify where I work as a theme specialist for Plus+. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful."
+    "des": "I am a front-end developer from Ireland, currently living in Faro, Portugal. I specialise in front-end web development, in particular HTML(5)/CSS(3), Javascript, jQuery, JSON, Ajax, liquid and Git. I work for the eCommerce company Shopify as a theme specialist for the Plus+ enterprise platform. In my free time I enjoy going surfing, skateboarding, the outdoors, travelling near and far!"
   },
   "skills":{
     "my_skills": "My Skills"
