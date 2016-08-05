@@ -7,8 +7,8 @@ description: "Pete's blog,using Jekyll and github pages."
 keywords: "Peter Brunton,Shopify,blog,front-end development,github,gh-pages"
 
 baseurl: "/"
-#url: "https://peterbrunton.github.io/"
-url: "http://127.0.0.1:4000"
+url: "https://peterbrunton.github.io/"
+#url: "http://127.0.0.1:4000"
 
 # author
 author:
